@@ -1,0 +1,35 @@
+<style type="text/css">
+    .add_comment {
+        display: table;
+        width: 580px;
+        border: 1px solid #000;
+        background-color: #6AF;
+    }
+    .close_hint, .open_hint {
+        float: right;
+        border: 1px solid #77A;
+        background: #6e6;
+        width: 100px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .close_hint { margin: 5px; color: #F00; }
+    .comm_body { padding: 0 5px; background-color: #EEE; text-align:left; }
+    .comm_head { padding: 3px; border: 1px solid #77A; background-color: #DFD; }
+    .comm_minus { background: url('image/minus.png') no-repeat; }
+    .comm_plus { background: url('image/plus.png') no-repeat; }
+    .comm_minus, .comm_plus {
+        float: right;
+        width: 19px;
+        height: 18px;
+        cursor: pointer;
+    }
+    .comm_text { display: none; }
+    .sp_link { color: #F33; cursor: pointer; }
+    .strelka {
+        background: url(image/strelka.png) no-repeat;
+        border-left: 2px solid #000;
+    }
+    .strelka_2 { background: url(image/strelka_2.png) no-repeat; }
+    #hint { position: absolute; display: none; z-index: 100; }
+</style>
